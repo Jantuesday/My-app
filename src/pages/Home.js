@@ -5,7 +5,7 @@ import '../styles/Home.css'
 
 function Home() {
   return (
-    <div>
+    <section>
       <div className='home' style={{ backgroundImage: `url(${BannerImage})` }}>
         <div className='headerContainer'>
         <h1>Little <span className='yellowlemon'>Lemon</span> </h1>
@@ -22,7 +22,7 @@ function Home() {
           </Link>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 
