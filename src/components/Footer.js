@@ -6,12 +6,12 @@ import '../styles/Footer.css'
 
 function Footer() {
   return (
-    <div className='footer'>
+    <footer className='footer'>
         <div className='socialMedia'>
             <InstagramIcon /> <LinkedInIcon /> <GitHubIcon />
         </div>
         <p> &copy; 2023 littlelemonamsterdam.nl </p>
-    </div>
+    </footer>
   )
 }
 
